@@ -1,7 +1,9 @@
-# Apple and Orange
+# Apple and Orange # Easy
 #!/bin/python
 
 #!/bin/python
+
+# https://www.hackerrank.com/challenges/apple-and-orange
 
 import sys
 
