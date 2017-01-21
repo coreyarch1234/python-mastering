@@ -1,4 +1,5 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
+# Will attempt later
 import sys
 n = raw_input()
 d_i = []
