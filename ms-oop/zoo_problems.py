@@ -63,3 +63,16 @@ class Bee(Animal):
             print("YUM! " + self.name + " wants more " + food)
         else:
             print("YUCK! " + self.name + " spits out " + food)
+
+# Implement the Zookeeper class here
+class Zookeeper(object):
+    # Implement the initializer method here
+    def __init__(self, name):
+        self.name = name
+
+    # Implement the feedAnimals method here
+    def feedAnimals(self, animals, food):
+        print( self.name + " is feeding " + food + " to " + str(len(animals)) + " animals")
+        for animal in animals:
+            animal.eat(food)
+            animal.sleep()
